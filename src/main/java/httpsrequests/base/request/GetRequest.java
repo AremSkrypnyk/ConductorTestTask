@@ -1,12 +1,10 @@
 package main.java.httpsrequests.base.request;
 
-import main.java.httpsrequests.base.response.GetResponse;
-
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class GetRequest {
+public abstract class GetRequest {
 
     protected HttpURLConnection connection;
 

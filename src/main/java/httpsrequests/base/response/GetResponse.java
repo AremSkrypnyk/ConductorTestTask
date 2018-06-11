@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 
-public class GetResponse {
+public abstract class GetResponse {
 
     private HttpURLConnection connection;
 
